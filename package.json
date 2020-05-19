@@ -1,0 +1,24 @@
+{
+  "name": "zhuishuyun-cli",
+  "version": "1.0.0",
+  "description": "auto create base-zhuishuyun-project with js or ts",
+  "main": "index.js",
+  "bin": {
+    "zhuishuyun": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengXiaowei/zhuishuyun-cli.git"
+  },
+  "author": "ZhengXiaowei",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.4",
+    "tracer": "^1.1.1"
+  }
+}
